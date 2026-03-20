@@ -1,0 +1,39 @@
+roles:
+  Finance:
+    folders:
+      - data/raw/Fintech-data/Finance
+    allowed_roles:
+      - Finance
+      - C-Level
+
+  HR:
+    folders:
+      - data/raw/Fintech-data/HR
+    allowed_roles:
+      - HR
+      - C-Level
+
+  Marketing:
+    folders:
+      - data/raw/Fintech-data/marketing
+    allowed_roles:
+      - Marketing
+      - C-Level
+
+  Engineering:
+    folders:
+      - data/raw/Fintech-data/engineering
+    allowed_roles:
+      - Engineering
+      - C-Level
+
+  General:
+    folders:
+      - data/raw/Fintech-data/general
+    allowed_roles:
+      - Employees
+      - Finance
+      - HR
+      - Marketing
+      - Engineering
+      - C-Level
